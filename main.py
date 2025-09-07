@@ -26,7 +26,7 @@ creds = Credentials(
 # Builds google drive api. Requests drive api, the latest v3 version and uses creds to authenticate requests
 drive_service = build('drive', 'v3', credentials=creds)
 
-folder_id = '1bsiApSUZ50U1p1PdmRCtY0S-pTXn0DcA'
+folder_id = 'p'
 
 def get_file_ids(drive_service, folder_id):
     results = drive_service.files().list(
