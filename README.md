@@ -3,10 +3,10 @@ A project designed to use the google drive api to extract data from referral for
 
 Key points:
 
-Automates sample processing, reducing processing time to <10 seconds per file.
-Removes transcription errors, common in the existing process.
-Cloud storage provides seamless data exchange between external clinicians and internal genetic technologists.
-Highly adaptable software which can be adapted to extract any additional data field or pull data from other/multiple cloud storage accounts.
-This project uses a personal Google Drive account to store form data however this is not UK GDPR complaint. In order to satisfy GDPR-Compliance, the program would have to be modified to use a ‘Google Workspace Account’ configured to adhere to UK-GDPR for business use.
-Laboratory implementation dependent on starlims api enabling data upload from csv.
+- Automates sample processing, reducing processing time to <10 seconds per file.
+- Removes transcription errors, common in the existing process.
+- Cloud storage provides seamless data exchange between external clinicians and internal genetic technologists.
+- Highly adaptable software which can be adapted to extract any additional data field or pull data from other/multiple cloud storage accounts.
+- This project uses a personal Google Drive account to store form data however this is not UK GDPR complaint. In order to satisfy GDPR-Compliance, the program would have to be modified to use a ‘Google Workspace Account’ configured to adhere to UK-GDPR for business use.
+- Laboratory implementation dependent on starlims api enabling data upload from csv.
 
