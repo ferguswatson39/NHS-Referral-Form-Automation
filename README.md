@@ -1,5 +1,5 @@
 # NHS-Referral-Form-Automation
-A project designed to use the google drive api to extract data from referral forms saved to the drive and process their data into a structured csv file. This project has the capacity to automate the nhs referral form booking in process. It has been specifically designed to process the ‘SWGLH Genomic Test Request Form’ (https://www.nbt.nhs.uk/sites/default/files/document/GMS%20Test%20Order%20Form%20v1.3.pdf) however other fillable pdf forms can also be processed. 
+A project designed to use an API to connect to a cloud storage platform (Google Drive) and extract the relevant referral form data from specified folders saved on the Drive. It then saves the referral forms locally on the computer, before reprocessing the data to a structured csv file. It has been specifically designed to process the ‘SWGLH Genomic Test Request Form’ (https://www.nbt.nhs.uk/sites/default/files/document/GMS%20Test%20Order%20Form%20v1.3.pdf) however other fillable pdf forms can also be processed. 
 
 Key points:
 
